@@ -18,20 +18,21 @@ audio {
 body {
   background: #c4d2f5;
   font-family: Inter;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
 }
 .player {
   background: #ffffff;
   border-radius: 30px;
+  border: 20px solid #ccd9f7;
   display: flex;
   width: 440px;
   padding: 30px;
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
 }
 
 .player-track-title {
